@@ -13,11 +13,10 @@ The environment includes:
 - E: A number of other agents, i.e. bad guys or enemies enemies have indices in the layout files.
 - . : Food
 - i: Invisibility cloak
-- In each step, first good guy moves, then each bad guy move
-- s in sequence.
+- In each step, first good guy moves, then each bad guy moves in sequence.
 - If good guy and one enemy are in the same cell, good guy dies.
 - If good guy consumes all the food, good guy wins.
-- - If good guy puts on the invisibility cloak, he will be invisible for 40 steps. So he cannot be seen or killed by the bad guys. In each step, score of the good guy changes as follows:
+- If good guy puts on the invisibility cloak, he will be invisible for 40 steps. So he cannot be seen or killed by the bad guys. In each step, score of the good guy changes as follows:
 - -1 even there is no movement
 - +10 if good guy consumes food
 - +200 if good guy puts on invisibility cloak
