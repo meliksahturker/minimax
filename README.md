@@ -30,16 +30,16 @@ The environment includes:
 
 
 ### Running
-./p2 -enemy RAND/ATTACK -seed -steps -search RAND/MINIMAX/ALPHABETA/EXPECTIMINIMAX -depth -eval BASIC/NOVEL -layout -update
+- ./p2 -enemy RAND/ATTACK -seed -steps -search RAND/MINIMAX/ALPHABETA/EXPECTIMINIMAX -depth -eval BASIC/NOVEL -layout -update
 
--enemy for enemy behavior
--seed for pseudo-random (-1 or 0 for random seed)
--steps for playing (-1 for play until end)
--search for search algorithm
--depth for search max depth
--eval for state evaluation function
--layout for layout file
--update for update speed in printing the solution path (no printing if -1)
+- enemy for enemy behavior
+- seed for pseudo-random (-1 or 0 for random seed)
+- steps for playing (-1 for play until end)
+- search for search algorithm
+- depth for search max depth
+- eval for state evaluation function
+- layout for layout file
+- update for update speed in printing the solution path (no printing if -1)
 
 # Example runs:
 - ./p2 -enemy RAND -seed -1 -steps -1 -search MINIMAX -depth 1 -eval BASIC -layout layouts/trickyClassic.lay -update 1000
