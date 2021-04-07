@@ -2,6 +2,7 @@
 ### Minimax, alpha-beta pruning, expectiminimax C++ implementations
 
 Original framework implementation in C++ is written by Emre Ugur.
+
 He adapted the project from CS188 Berkeley course material.
 
 ![pic1](https://user-images.githubusercontent.com/67103746/113911371-94377e80-97e2-11eb-94ed-842ea93f8e00.jpg)
