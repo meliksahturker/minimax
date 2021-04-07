@@ -1,4 +1,4 @@
-# Boğaziçi University CMPE540 class Project 2
+# Boğaziçi University - Principles of Artificial Intelligence CMPE540 class Project 2
 ### Minimax, alpha-beta pruning, expectiminimax C++ implementations
 
 Original framework implementation in C++ is written by Emre Ugur.
