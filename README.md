@@ -41,7 +41,7 @@ The environment includes:
 - layout for layout file
 - update for update speed in printing the solution path (no printing if -1)
 
-# Example runs:
+### Example runs:
 - ./p2 -enemy RAND -seed -1 -steps -1 -search MINIMAX -depth 1 -eval BASIC -layout layouts/trickyClassic.lay -update 1000
 - ./p2 -enemy RAND -seed -1 -steps -1 -search ALPHABETA -depth 6 -eval BASIC -layout layouts/smallClassic.lay -update 1000
 - ./p2 -enemy RAND -seed -1 -steps -1 -search ALPHABETA -depth 6 -eval BASIC -layout layouts/trappedClassic.lay -update 1000
